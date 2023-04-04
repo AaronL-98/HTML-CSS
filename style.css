@@ -1,4 +1,6 @@
-
+*{
+    box-sizing: border-box;
+}
 
 body
 {
@@ -10,16 +12,11 @@ body
     font-weight: lighter;
 }
 
-.container
-{
-    border: solid red 5px;
-}
-
 h1,h2
 {
     color: royalblue;
-}
 
+}
 
 P
 {
@@ -27,10 +24,27 @@ P
     font-size: 1.2em;
 }
 
+ul
+{
+    width: 80%;
+}
+
+.container
+{
+    border: solid red 2px;
+    padding: 0.5%;
+}
+
+.container1 > div
+{
+    border: solid red 2px;
+    padding: 0.5%;
+}
+
 .skills
 {
     color: blue;
-    font-size: 80%;
+    font-size: 95%;
 }
 
 #goals
@@ -38,8 +52,8 @@ P
     color: blueviolet;
 }
 
-ul
+#portrait
 {
-    box-sizing: border-box;
-    width: 300px;
+    width: 15%;
+    height: 15%;
 }
