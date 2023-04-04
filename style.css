@@ -12,7 +12,7 @@ body
 
 .container
 {
-    border: #daa520;
+    border: solid red 5px;
 }
 
 h1,h2
@@ -25,21 +25,6 @@ P
 {
     color: purple;
     font-size: 1.2em;
-}
-
-.gparent
-{
-    border: solid red 5px;
-}
-
-.parent
-{
-    border: solid rgb(168, 39, 39) 5px;
-}
-
-.child
-{
-    border: solid rgb(255, 255, 255) 5px;
 }
 
 .skills
