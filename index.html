@@ -10,33 +10,31 @@
     <title>My Page</title>
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="index.html">Profile</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="https://www.linkedin.com/in/aaron-lewis-562053174/" target="_blank">Social</a></li>
-        </ul>
+    <nav id="navbar">
+        <a href="index.html">Profile</a>
+        <a href="projects.html">Projects</a>
+        <a href="https://www.linkedin.com/in/aaron-lewis-562053174/" target="_blank">Social</a>
     </nav>
     <header>
         <h1>Aaron Lewis</h1>
-        <img alt="My Picture" src="Images/Profile.jpg">
+        <img alt="My Picture" src="Images/Portrait.jpg" >
         <h2>My Profile</h2>
         <p><em>Web Demo</em> presented by the ever so humble <strong>Aaron Lewis</strong></p>
     </header>
-    <div>
+    <div class="container">
         <h4>My Skills</h4>
-        <p class="skills">Agile, Scrum, C#, HTML, CSS</p>
+        <p class="skills">Agile, Scrum, C#, HTML, CSS, C++, ISTQB</p>
     </div>
-    <div class="gparent">
-        <h4 class="parent">My Hobbies</h4>
-        <ul class="child">
+    <div class="container">
+        <h4>My Hobbies</h4>
+        <ul>
             <li>Swimming</li>
             <li>Video Games</li>
             <li>D&D Wannabe</li>
             <li>Sleeping</li>
         </ul>
     </div>
-    <div>
+    <div class="container">
         <h4 id="goals">Goals</h4>
         <ol>
             <li>S</li>
@@ -45,7 +43,7 @@
             <li>M</li>
         </ol>
     </div>
-    <div>
+    <div class="container">
         <h3>search for news</h3>
         <form action="https://www.bbc.co.uk/search" target="_blank">
             <label for="mysearch">Search for</label>
