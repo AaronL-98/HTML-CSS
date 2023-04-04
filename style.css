@@ -1,0 +1,59 @@
+
+
+body
+{
+    background-color: #daa520;
+    color: rgb(#daa520);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.container
+{
+    border: #daa520;
+}
+
+h1,h2
+{
+    color: royalblue;
+}
+
+
+P
+{
+    color: purple;
+    font-size: 1.2em;
+}
+
+.gparent
+{
+    border: solid red 5px;
+}
+
+.parent
+{
+    border: solid rgb(168, 39, 39) 5px;
+}
+
+.child
+{
+    border: solid rgb(255, 255, 255) 5px;
+}
+
+.skills
+{
+    color: blue;
+    font-size: 80%;
+}
+
+#goals
+{
+    color: blueviolet;
+}
+
+ul
+{
+    box-sizing: border-box;
+    width: 300px;
+}
